@@ -67,6 +67,10 @@ COMMON CLASS
   margin-bottom: 40px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* ==============
 HEADER CSS
 ===============*/
@@ -77,6 +81,7 @@ HEADER CSS
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo a {
@@ -90,6 +95,8 @@ HEADER CSS
 .menu ul {
   display: flex;
   gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .menu a {
